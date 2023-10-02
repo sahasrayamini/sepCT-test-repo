@@ -14,7 +14,7 @@ public class CTPOCApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CTPOCApplication.class, args);
-		System.out.println("application started");
+		System.out.println("application started,Hi Iam Yamini");
 	}
 
 }
