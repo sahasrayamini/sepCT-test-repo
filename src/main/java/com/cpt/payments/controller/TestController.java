@@ -49,10 +49,12 @@ public class TestController {
 		
 				return res;
 		
-	
-	
-	
+	}
+	@GetMapping("/get")
+	public String GetWorld() {
+		return "getworld";
+	}
 
 
 }
-}
+
